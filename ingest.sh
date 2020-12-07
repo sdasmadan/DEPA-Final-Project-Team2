@@ -6,4 +6,4 @@ sudo apt-get install wget
 rm -f foodinspectiondata.csv
 
 # download latest data from Chicago Data Portal
-wget https://data.cityofchicago.org/resource/4ijn-s7e5.csv -O foodinspectiondata.csv
+wget https://data.cityofchicago.org/resource/4ijn-s7e5.csv -O /data/foodinspectiondata.csv
