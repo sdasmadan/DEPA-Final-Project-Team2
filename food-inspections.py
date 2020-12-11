@@ -14,6 +14,12 @@
 
 # In[1]:
 
+!pip install configparser
+!pip install pymysql
+!pip install sqlalchemy
+!pip install datetime
+!pip install usaddress
+!pip install re
 
 import pandas as pd # table manipulation
 import numpy as np # number manipulation
