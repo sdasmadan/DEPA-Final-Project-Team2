@@ -16,6 +16,7 @@ cd DEPA-Final-Project-Team2
 python3 food-inspections.py
 
 #5 Validate inserts are successful (password = 'rootroot')
+sudo apt-get install default-mysql-server
 mysql --host=34.66.161.208 --user=root --password
 use foodinpection;
 show tables;
