@@ -1,8 +1,12 @@
 # DEPA-Final-Project-Team2
 Data Engineering Platforms Final Project Team 2
 
+Please refer to https://github.com/samgunther/DEPA-Final-Project-Team2 for official project submission
+
 ##### INSERT TO MYSQL #####
-#1 Login to instance
+
+#1 Login to GCP instance using SSH from "DEPA FINAL PROJECT TEAM 2" project on GCP Console instance-2
+cd ..
 cd sam_peter_gunther
 
 #2 Refresh Git Hub Repo (As needed)
