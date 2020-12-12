@@ -15,11 +15,13 @@ Please refer to https://github.com/samgunther/DEPA-Final-Project-Team2 for offic
 ### 1. Login to GCP instance using SSH from *DEPA FINAL PROJECT TEAM 2* project on GCP Console instance-2
 
 cd ..
+
 cd sam_peter_gunther
 
 ### 2. Refresh Git Hub Repo (As needed)
 
 rm -rf DEPA-Final-Project-Team2
+
 git clone https://github.com/samgunther/DEPA-Final-Project-Team2
 
   
@@ -51,6 +53,7 @@ select * from inspection LIMIT 5;
 Use same login from above to login and connect to MySQL Server
 
 IP: 34.66.161.208
+
 Port: 3306
 
   
