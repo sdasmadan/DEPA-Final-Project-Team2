@@ -5,21 +5,26 @@ Please refer to https://github.com/samgunther/DEPA-Final-Project-Team2 for offic
 
 ##### INSERT TO MYSQL #####
 
-#1 Login to GCP instance using SSH from "DEPA FINAL PROJECT TEAM 2" project on GCP Console instance-2
+#### 1 Login to GCP instance using SSH from "DEPA FINAL PROJECT TEAM 2" project on GCP Console instance-2
+
 cd ..
 cd sam_peter_gunther
 
 #2 Refresh Git Hub Repo (As needed)
+
 rm -rf DEPA-Final-Project-Team2
 git clone https://github.com/samgunther/DEPA-Final-Project-Team2
 
 #3 Enter Repo
+
 cd DEPA-Final-Project-Team2
 
 #4 Run python to insert to mySQL tables
+
 python3 food-inspections.py
 
 #5 Validate inserts are successful (password = 'rootroot')
+
 sudo apt-get install default-mysql-server
 mysql --host=34.66.161.208 --user=root --password
 use foodinpection;
@@ -28,6 +33,7 @@ select * from inspection LIMIT 5;
 
 
 ##### RUN DASHBOARDS #####
+
 Open up 'Dashboards v3.twbx' (or latest from GitHub repo)
 
 Use same login from above to login and connect to MySQL Server 
